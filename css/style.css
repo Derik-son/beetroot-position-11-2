@@ -19,6 +19,12 @@ margin-right: auto;
    letter-spacing: 5px;
    color: #3c3c3c;
 }
+hr{
+   width: 45px;
+   border-radius: 20px;
+   border: 3px solid #dddbdb;
+   background-color: #dddbdb;
+}
 .subtitle{
    margin-top: 70px;
    margin-bottom: 60px;
@@ -42,10 +48,16 @@ margin-right: auto;
    margin-top: 20px;
    font-size: 18px;
    font-weight: 900;
+   color: #282528
 }
 .capture div:last-child{
    font-size:15px ;
    font-weight: 400;
    color: #646464;
+}
+.photo1:hover{
+ 
+
+ 
 }
 
