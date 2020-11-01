@@ -3,12 +3,11 @@ body{
    font-family: 'Lato', sans-serif;
 }
 .background{
-background-image: url(../img/06.png);
-
-width: 1170px;
-height: 730px;
-margin-left: auto;
-margin-right: auto;
+   background-image: url(../img/06.png);
+   width: 1170px;
+   height: 730px;
+   margin-left: auto;
+   margin-right: auto;
 }
 .title{
    font-family: 'Lato', sans-serif;
@@ -34,14 +33,50 @@ hr{
    width: 570px;
    margin-left: auto;
    margin-right: auto;
-
 }
+
 .grid{
    display: grid;
    grid-template-columns: 271px 271px 271px 271px;
    grid-row: 271px;
-   gap: 30px;
+   gap: 29px;
+}
 
+.photo{
+   width: 270px;
+   height: 270px;
+   border-radius: 10px;
+}
+.social{
+   position: absolute;
+   top: 13px;
+   left: 12px;
+}
+
+.photo a{
+   display: none;
+}
+
+.photo:hover{
+   background-image: none;
+   background-color: #18b5dc;
+   opacity: 0.9;
+}
+.photo:hover a{
+   display: inline-block;
+   width: 43px;
+   height: 43px;
+   border-radius: 10px;
+   background-color: #5ecbe7;
+   position: relative;
+   top: 110px;
+   left: 65px;
+}
+.photo a:hover{
+   background-color: rgb(27, 19, 148);
+   transition: all 0.4 linear;
+   transform: scale(1.1, 1.1);
+   opacity: 0.2;
 }
 
 .capture div:first-child{
@@ -55,9 +90,16 @@ hr{
    font-weight: 400;
    color: #646464;
 }
-.photo1:hover{
- 
-
- 
+.img1{
+   background-image: url(../img/4-1.png);
+}
+.img2{
+   background-image: url(../img/01\ \(3\).png);
+}
+.img3{
+   background-image: url(../img/02\ \(3\).png);
+}
+.img4{
+   background-image: url(../img/03\(3\).png);
 }
 
